@@ -1,0 +1,463 @@
+html {
+    display: block;
+}
+head {
+    display: block;
+}
+body {
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* div {
+    display: block;
+    outline: 1px solid black;
+}*/
+.header {
+    width: 1280px;
+    height: 80px;
+    position: fixed;
+    font-size: 0;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+}
+.wrapper {
+    display: flex;
+    justify-content: left;
+    height: 80px;
+}
+.logo {
+    width: 125px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 145px;
+    display: inline-block;
+    font-size: 0;
+}
+.menu {
+    width: 840px;
+    height: 80px;
+    display: flex;
+}
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+.home {
+    width: 74px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #404040;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.about {
+    width: 111px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #404040;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.practice {
+    width: 129px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.join {
+    width: 92px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.essay {
+    width: 92px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.dvd {
+    width: 103px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.equiry {
+    width: 92px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.video-container {
+    width: 1280px;
+    height: 741px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.youtube {
+    width: 1280px;
+    height: 741px;
+    flex-direction: column;
+}
+.video-navi {
+    display: flex;
+    flex-wrap: wrap;
+    width: 497px;
+    height: 50px;
+    margin-top: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 53px;
+}
+.black {
+    background-color: black;
+    width: 145px;
+    height: 50px;
+}
+.yoin-juku {
+    background-color: black;
+    width: 254px;
+    height: 50px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-nav {
+    background-color: black;
+    width: 98px;
+    height: 50px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduction_section {
+    width: 1280px;
+    height: 879px;
+}
+.introduction-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 990px;
+    height: 779px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.box {
+    width: 303px;
+    height: 205px;
+    margin-bottom: auto;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.box img {
+    width: 293px;
+    height: 195px;
+}
+.text-about {
+    width: 130px;
+    height: 40px;
+    margin: auto;
+    color: #969696;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vh;
+    background-color: rgba(100, 100, 100, 0.1);
+    position: relative;
+    top: 10px;
+}
+.text-practice {
+    width: 130px;
+    height: 40px;
+    margin: auto;
+    color: #969696;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vh;
+    background-color: rgba(100, 100, 100, 0.1);
+    position: relative;
+    top: 10px;
+}
+.text-join {
+    width: 130px;
+    height: 40px;
+    margin: auto;
+    color: #969696;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vh;
+    background-color: rgba(100, 100, 100, 0.1);
+    position: relative;
+    top: 10px;
+
+}
+.text-essay {
+    width: 130px;
+    height: 40px;
+    margin: auto;
+    color: #969696;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vh;
+    background-color: rgba(100, 100, 100, 0.1);
+    position: relative;
+    top: 10px;
+}
+.text-dvd {
+    width: 130px;
+    height: 40px;
+    margin: auto;
+    color: #969696;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vh;
+    background-color: rgba(100, 100, 100, 0.1);
+    position: relative;
+    top: 10px;
+}
+.text-equiry {
+    width: 130px;
+    height: 40px;
+    margin: auto;
+    color: #969696;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vh;
+    background-color: rgba(100, 100, 100, 0.1);
+    position: relative;
+    top: 10px;
+}
+.aside {
+    width: 1280px;
+    height: 597px;
+    display: flex;
+    background-color: #2a2a2a;
+}
+.aside-wrapper {
+    width: 990px;
+    height: 517px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.button-fb {
+    width: 136px;
+    height: 20px;
+    margin-right: auto;
+    background-color: #4267b2;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 11px;
+    text-align: center;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    margin-top: auto;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' class='_1pbq' color='%23ffffff'%3E%3Cpath fill='%23ffffff' fill-rule='evenodd' d='M4.55,7 C4.7984,7 5,7.23403636 5,7.52247273 L5,13.4775273 C5,13.7659636 4.7984,14 4.55,14 L2.45,14 C2.2016,14 2,13.7659636 2,13.4775273 L2,7.52247273 C2,7.23403636 2.2016,7 2.45,7 L4.55,7 Z M6.54470232,13.2 C6.24016877,13.1641086 6.01734614,12.8982791 6,12.5737979 C6.01734614,12.5737979 6.01344187,9.66805666 6,8.14398693 C6.01344187,7.61903931 6.10849456,6.68623352 6.39801308,6.27384278 C7.10556287,5.26600749 7.60281698,4.6079584 7.89206808,4.22570082 C8.18126341,3.8435016 8.52813047,3.4708734 8.53777961,3.18572676 C8.55077527,2.80206854 8.53655255,2.79471518 8.53777961,2.35555666 C8.53900667,1.91639814 8.74565444,1.5 9.27139313,1.5 C9.52544997,1.5 9.7301456,1.55690094 9.91922413,1.80084547 C10.2223633,2.15596568 10.4343097,2.71884727 10.4343097,3.60971169 C10.4343097,4.50057612 9.50989975,6.1729303 9.50815961,6.18 C9.50815961,6.18 13.5457098,6.17908951 13.5464084,6.18 C14.1635544,6.17587601 14.5,6.72543196 14.5,7.29718426 C14.5,7.83263667 14.1341135,8.27897346 13.6539433,8.3540827 C13.9452023,8.49286263 14.1544715,8.82364675 14.1544715,9.20555417 C14.1544715,9.68159617 13.8293011,10.0782687 13.3983805,10.1458495 C13.6304619,10.2907572 13.7736931,10.5516845 13.7736931,10.847511 C13.7736931,11.2459343 13.5138356,11.5808619 13.1594388,11.6612236 C13.3701582,11.7991865 13.5063617,12.0543945 13.5063617,12.3429843 C13.5063617,12.7952155 13.1715421,13.1656844 12.7434661,13.2 L6.54470232,13.2 Z'%3E%3C/path%3E%3C/svg%3E")
+}
+.text1 {
+    width: 316px;
+    height: 34px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.text2 {
+    width: 316px;
+    height: 40px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "ヒラギノ明朝　Pro W3","MS P明朝",serif;
+}
+.text3 {
+    width: 316px;
+    height: 106px;
+    margin: 0 auto;
+}
+.address-number {
+    width: 306px;
+    height: 24px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.address {
+    width: 306px;
+    height: 24px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.phone-number {
+    width: 306px;
+    height: 24px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.mail {
+    width: 306px;
+    height: 24px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.google-map {
+    width: 316px;
+    height: 337px;
+    margin: 0 auto;
+}
+.map {
+    width: 313px;
+    height: 334px;
+}
+.text5 {
+    width: 316px;
+    height: 34px;
+    margin-right: 0;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.google-translate {
+    width: 316px;
+    height: 35px;
+}
+.google-img {
+    width: 123px;
+    height: 25px;
+}
+.sharebuttons {
+    width: 316px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    width: 130px;
+    height: 28px;
+    margin: 0 auto;
+}
+.icon img {
+    width: 28px;
+    height: 28px;
+}
+.footer {
+    width: 1280px;
+    height: 97px;
+    background-color: #2a2a2a;
+}
+.footer-wrapper {
+    width: 990px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.privacy {
+    width: 539px;
+    height: 38px;
+    margin-left: 0px;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Roboto";
+}
+.login {
+    width: 490px;
+    height: 19px;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: right;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Roboto";
+}
+a {
+    color: #fff;
+}
